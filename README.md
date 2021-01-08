@@ -33,7 +33,7 @@ Hệ thống có 2 nhóm user cơ bản: VDS Staff User và Partner User
 
 
 ## Event Driven Flow
-* Với các sự kiện TriggerEvent của Users từ Kafka, hệ thống sẽ process các event tương ứng để tính toán các Reward phù hợp.
+* Với các sự kiện `TriggerEvent` của Users từ Kafka, hệ thống sẽ process các event tương ứng để tính toán các Reward phù hợp.
 * Khi các User nhận đc Reward, hệ thống gửi email cho khách hàng thông tin voucher.
 
 ```shell script
@@ -52,3 +52,7 @@ TriggerEvent: đc stream vào Kafka và xử lý để tính toán Reward tươn
 * Với các User xác định Fraud, cần lưu lại(KafkaAllocationEmitter) trên Kafka Event
 * Với các User xác định số lần nhận reward trong ngày sẽ lưu vào Database(SQLAllocationEmitter)
 * Mỗi lần OfferItem đc tạo ra, cần send Email đến cho Partner.email
+
+# Mục tiêu đạt được
+* Các component thể hiện Hexagonal
+* SPI/API/TDD
