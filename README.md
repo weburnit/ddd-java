@@ -17,7 +17,7 @@ Hệ thống có 2 nhóm user cơ bản: VDS Staff User và Partner User
 * Reward đc chỉ định bởi các Policy độc lập dựa vào DemographicPolicy(Nhân khẩu học) và EventPolicy
 	1. Demographic: với các Policy tương ứng về nhân khẩu học theo
 		* a. Age
-		* b. Gender****
+		* b. Gender
 		* `VD: Reward là Voucher vé xem phim Batman với nhóm khách hàng Nữ, dưới 22 tuổi.
 			Khi đó, hệ thống chỉ cấp phát cho những user thoã mãn các Policy trên.`
 
@@ -56,3 +56,4 @@ TriggerEvent: đc stream vào Kafka và xử lý để tính toán Reward tươn
 # Mục tiêu đạt được
 * Các component thể hiện Hexagonal
 * SPI/API/TDD
+* ChainOfRes: FraudPolicy & FrequencyCapPolicy
