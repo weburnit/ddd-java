@@ -16,15 +16,15 @@ Hệ thống có 2 nhóm user cơ bản: VDS Staff User và Partner User
 
 * Reward đc chỉ định bởi các Policy độc lập dựa vào DemographicPolicy(Nhân khẩu học) và EventPolicy
 	1. Demographic: với các Policy tương ứng về nhân khẩu học theo
-		a. Age
-		b. Gender****
-		VD: Reward là Voucher vé xem phim Batman với nhóm khách hàng Nữ, dưới 22 tuổi.
-			Khi đó, hệ thống chỉ cấp phát cho những user thoã mãn các Policy trên.
+		* a. Age
+		* b. Gender****
+		* `VD: Reward là Voucher vé xem phim Batman với nhóm khách hàng Nữ, dưới 22 tuổi.
+			Khi đó, hệ thống chỉ cấp phát cho những user thoã mãn các Policy trên.`
 
 	2. EventPolicy
-		a. event_name: tên của các event cụ thể
-		b. timeStamp: thời gian event thoã mãn
-		VD: Cấp phát Voucher giảm 20% cho các khách hàng event_name = thanh_toan_khoan_vay vào ngày thứ 7 hàng tuần.
+		* a. event_name: tên của các event cụ thể
+		* b. timeStamp: thời gian event thoã mãn
+		* `VD: Cấp phát Voucher giảm 20% cho các khách hàng event_name = thanh_toan_khoan_vay vào ngày thứ 7 hàng tuần.`
 	3. TimeBasedPolicy:
         ** Ngày cố định(absolute)
         ** Ngày trong tuần
