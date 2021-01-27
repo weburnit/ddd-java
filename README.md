@@ -68,3 +68,16 @@ todo: Tạo file dữ liệu test
 * SPI/API/TDD
 * ChainOfRes: FraudPolicy & FrequencyCapPolicy
 * Design patterns
+
+
+## Run Kafka
+Install Docker-compose
+
+```ssh
+# Start Local kafka
+docker-composer up -d
+
+# Fake kafka event
+
+```
+
