@@ -1,0 +1,13 @@
+[
+  {
+    "id": "event-1",
+    "name": "buy-product",
+    "user": {
+      "age": 33,
+      "email": "paul.ng@primedata.ai"
+    },
+    "properties": {
+      "price": 200
+    }
+  }
+]
