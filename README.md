@@ -78,6 +78,8 @@ Install Docker-compose
 docker-composer up -d
 
 # Fake kafka event
-
+cd streamwriter
+#window
+ddd.exec events.json
 ```
 
