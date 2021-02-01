@@ -39,7 +39,7 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
-      KAFKA_CREATE_TOPICS: "eventify-event:1:1"
+      KAFKA_CREATE_TOPICS: "events:1:1"
     networks:
       - kong-net
 volumes: # Define seperate volume for Elasticsearch data
