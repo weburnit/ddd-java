@@ -81,5 +81,8 @@ docker-composer up -d
 cd streamwriter
 #window
 ddd.exec events.json
+
+#ubuntu
+ddd events.json
 ```
 
